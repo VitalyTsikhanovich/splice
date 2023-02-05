@@ -70,3 +70,28 @@ a {
   border-radius: 32px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.blue {
+  width: 1200px;
+  height: 46px;
+  background: #0033ff;
+  display: flex;
+  align-items: center;
+}
+.blue-p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 240px;
+}
+.blue-a {
+  width: 80px;
+  height: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-left: 70px;
+}
