@@ -234,7 +234,7 @@ a {
 /* section_3 */
 
 .section_3 {
-  width: 1200px;
+  max-width: 1200px;
   height: 481px;
   display: flex;
   justify-content: space-between;
@@ -291,7 +291,7 @@ a {
 /* section_4 */
 
 .section_4 {
-  width: 1200px;
+  max-width: 1200px;
   height: 482px;
   display: flex;
   justify-content: space-between;
@@ -427,4 +427,69 @@ a {
   line-height: 24px;
   text-align: center;
   color: #ffffff;
+}
+/* section6 */
+
+.section_6 {
+  max-width: 1200px;
+  height: 753px;
+}
+.section_6-h2 {
+  margin-top: 120px;
+  margin-left: 48px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.section_6-cards-container {
+  display: flex;
+  max-width: 1104px;
+  margin-left: 48px;
+  margin-top: 24px;
+  margin-right: 48px;
+  /* justify-content: space-around; */
+}
+.section_6-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 361px;
+  height: 453px;
+  background: #f8f8f8;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.section_6-p-container {
+  margin-top: 30px;
+  width: 258px;
+  height: 100px;
+}
+.section_6-p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+.section_6-card-name-container {
+  margin-top: 16px;
+  max-width: 98px;
+  height: 20px;
+}
+.section_6-card-name {
+  align-items: start;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #767676;
+}
+.section_6-card-img {
+  max-width: 223px;
+  height: 223px;
+  margin-top: 32px;
 }
