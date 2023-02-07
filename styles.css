@@ -113,13 +113,13 @@ a {
 /* section */
 .section-wrap {
   width: 100%;
+  /* height: 100vh; */
   background: url(./assets/IMAGE-1.png) no-repeat;
   background-size: cover;
 }
 .section {
   max-width: 1200px;
   height: 744px;
-
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -204,7 +204,7 @@ a {
   flex-direction: column;
 }
 .section_2-block-p {
-  width: 54px;
+  max-width: 54px;
   height: 14px;
   font-family: 'Roboto';
   font-weight: 400;
@@ -224,7 +224,7 @@ a {
 }
 .section_2-block-discription-container {
   margin-top: 12px;
-  width: 374px;
+  max-width: 374px;
   height: 48px;
 }
 .section_2-block-discription {
@@ -252,7 +252,7 @@ a {
   margin-top: 96px;
 }
 .section_2-img {
-  width: 580px;
+  max-width: 580px;
   height: 360px;
 }
 /* section_3 */
@@ -271,7 +271,7 @@ a {
   margin-left: 48px;
 }
 .section_3-img {
-  width: 579px;
+  max-width: 579px;
   height: 386px;
 }
 .section_3-block {
@@ -284,7 +284,7 @@ a {
   align-items: end;
 }
 .section_3-block-p {
-  width: 156px;
+  max-width: 156px;
   height: 14px;
   font-family: 'Roboto';
   font-weight: 400;
@@ -304,7 +304,7 @@ a {
 }
 .section_3-block-discription-container {
   margin-top: 12px;
-  width: 422px;
+  max-width: 422px;
   height: 22px;
 }
 .section_3-block-discription {
@@ -335,7 +335,7 @@ a {
   flex-direction: column;
 }
 .section_4-block-p {
-  width: 54px;
+  max-width: 54px;
   height: 14px;
   font-family: 'Roboto';
   font-weight: 400;
@@ -346,7 +346,7 @@ a {
   color: #a6a8ad;
 }
 .section_4-block-h2-container {
-  width: 363px;
+  max-width: 363px;
   margin-top: 5px;
 }
 .section_4-block-h2 {
@@ -358,7 +358,7 @@ a {
 }
 .section_4-block-discription-container {
   margin-top: 12px;
-  width: 424px;
+  max-width: 424px;
   height: 48px;
 }
 .section_4-block-discription {
@@ -370,7 +370,7 @@ a {
 }
 .section_4-block-btn {
   margin-top: 23px;
-  width: 140px;
+  max-width: 140px;
   height: 36px;
   background: #0033ff;
   border-radius: 8px;
@@ -418,7 +418,7 @@ a {
   align-items: end;
 }
 .section_5-block-p {
-  width: 89px;
+  max-width: 89px;
   height: 14px;
   font-family: 'Roboto';
   font-weight: 400;
@@ -438,7 +438,7 @@ a {
 }
 .section_5-block-discription-container {
   margin-top: 12px;
-  width: 441px;
+  max-width: 441px;
   height: 72px;
 }
 .section_5-block-discription {
@@ -451,7 +451,7 @@ a {
 }
 .section_5-block-btn {
   margin-top: 18px;
-  width: 153px;
+  max-width: 153px;
   height: 40px;
   background: #0033ff;
   border-radius: 8px;
@@ -501,7 +501,7 @@ a {
 }
 .section_6-p-container {
   margin-top: 30px;
-  width: 258px;
+  max-width: 258px;
   height: 100px;
 }
 .section_6-p {
