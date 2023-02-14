@@ -848,14 +848,14 @@ header-aut-btn-txt {
 
 @media (max-width: 540px) {
   .section {
-    height: 100%;
+    height: 100vh;
     padding-right: 15px;
   }
   .section-h1-container {
     align-items: center;
   }
   .section-h1 {
-    display: none;
+    /* display: none; */
     font-size: 42px;
     line-height: 62px;
   }
@@ -865,7 +865,7 @@ header-aut-btn-txt {
     padding-right: 25px;
   }
   .section-text {
-    padding-top: 100px;
+    padding-top: 30%;
     padding-left: 45%;
 
     align-items: center;
