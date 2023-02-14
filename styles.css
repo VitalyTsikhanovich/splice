@@ -616,14 +616,16 @@ header-aut-btn-txt {
   color: #a6a8ad;
 }
 .footer_contact {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  /* display: grid;
+  grid-template-columns: repeat(7, 1fr); */
+  display: flex;
   padding: 63px 0 0 48px;
 }
 .footer_contact-container {
-  max-width: 231px;
+  /* max-width: 231px; */
 }
 .footer_contact-p {
+  padding-right: 24px;
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 12px;
@@ -631,6 +633,7 @@ header-aut-btn-txt {
   color: #a6a8ad;
 }
 .footer_contact-img {
+  padding-left: 24px;
   width: 16px;
   height: 16px;
 }
@@ -977,7 +980,7 @@ header-aut-btn-txt {
   }
 
   .section_6-cards-container {
-    max-width: 100%;
+    max-width: 90%;
   }
   .section_6-card {
     max-width: 100%;
@@ -1003,5 +1006,8 @@ header-aut-btn-txt {
     line-height: 36px;
     color: #ffffff;
     text-align: center;
+  }
+  .footer {
+    display: none;
   }
 }
