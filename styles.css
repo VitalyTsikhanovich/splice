@@ -846,7 +846,7 @@ header-aut-btn-txt {
 
 /* ------ */
 
-@media (max-width: 390px) {
+@media (max-width: 540px) {
   .section {
     height: 100%;
     padding-right: 15px;
@@ -1007,6 +1007,7 @@ header-aut-btn-txt {
     color: #ffffff;
     text-align: center;
   }
+
   .footer {
     display: none;
   }
