@@ -1014,11 +1014,10 @@ header-aut-btn-txt {
   }
   .footer_contact {
     /* display: none; */
-    padding: 5px;
-    justify-content: space-around;
+    padding: 15px;
   }
   .footer_contact-p {
-    padding-right: 0;
+    padding-right: 15px;
     font-size: 10px;
     line-height: 15px;
   }
